@@ -8,7 +8,7 @@ class WelcomePage extends React.Component {
     return (
       <div className="smallText">
         <h2 >Martina Weidenbaum</h2>
-        <p>{this.props.json.basics.summary}</p>
+        <p>Fullstack Engineer with skills in React and Ruby on Rails.</p>
       </div>
     );
   }
@@ -22,3 +22,5 @@ function mapStateToProps(state){
 
 
 export default connect(mapStateToProps)(WelcomePage)
+
+//<p>{this.props.json.basics.summary}</p>

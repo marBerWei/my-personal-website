@@ -8,8 +8,7 @@ class Background extends React.Component {
     return (
       <div>
         <h2>Martina Weidenbaum</h2>
-        <p> As an Opera singer and language-lover, I have considerable experience with learning syntax and linguistic pattern recognition, a skill that translates beautifully to code. Building and managing music programs from the ground up, </p>
-        <p>Background stuff</p>
+        <p> Full stack web developer with experience in Ruby and JavaScript frameworks. Studying Opera gave me considerable experience with learning syntax and linguistic pattern recognition, a skill that translates beautifully to code. Building and managing music programs from the ground up, I bring excellent leadership skills to a team. After dedicating my life to connecting people through music, I am excited to use my technical skills to connect people through technology.  </p>
       </div>
     );
   }
