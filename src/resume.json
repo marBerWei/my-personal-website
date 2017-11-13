@@ -1,0 +1,92 @@
+{
+  "basics": {
+    "name": "Martina Weidenbaum",
+    "label": "Full Stack Developer",
+    "picture": "./profilePhoto.jpg",
+    "email": "martina.weidenbaum@gmail.com",
+    "phone": "845.596.5226",
+    "summary": "Full stack web developer with experience in Ruby and JavaScript frameworks. I bring excellent entrepreneurial and leadership skills to a team. After dedicating my life to connecting people through music, I am excited to use my technical skills to connect people through technology. ",
+    "location": {
+      "address": "n/a",
+      "postalCode": "n/a",
+      "city": "New York",
+      "countryCode": "USA",
+      "state": "NY"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "martina-weidenbaum",
+        "url": ""
+      },
+      {
+        "network": "Github",
+        "username": "marBerWei",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Music Together",
+      "position": "Instructor",
+      "website": "",
+      "startDate": "2016-08-01",
+      "endDate": "current",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Barnard College",
+      "area": "Ethnomusicology",
+      "degreeType": "Bachelor Arts",
+      "startDate": "2009-09-01",
+      "endDate": "2013-05-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Front End Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "ES2015",
+        "jQuery",
+        "Semantic UI",
+        "Node",
+        "MySQL",
+        "Git"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "conversational"
+    },
+    {
+      "language": "Italian",
+      "fluency": "conversational"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Opera",
+      "keywords": []
+    }
+  ],
+  "references": []
+}
