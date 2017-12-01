@@ -31,18 +31,16 @@ class App extends React.Component {
         <div className="App">
             <ul className="header">
               <li><NavLink to="/">Home</NavLink></li>
-              <li><NavLink to="/about">About</NavLink></li>
+              <li><NavLink to="/about">Toolkit</NavLink></li>
               <li><NavLink to="/stuff">Stuff</NavLink></li>
-              <li><NavLink to="/background">Background</NavLink></li>
               <li><NavLink to="/contact">Contact</NavLink></li>
             </ul>
             <div className="content">
-              <Route exact path="/" component={Welcome}/>
+              <Route exact path="/" component={Background}/>
               <Route path="/about" component={About}/>
               <Route path="/stuff" component={Stuff}/>
               <Route path="/contact" component={Contact}/>
               <Route path="/blog" component={Blog}/>
-              <Route path="/background" component={Background}/>
             </div>
         </div>
       </HashRouter>
