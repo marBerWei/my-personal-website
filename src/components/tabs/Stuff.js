@@ -3,23 +3,31 @@ import React, { Component } from "react";
 class Stuff extends React.Component {
   render() {
     return (
-      <div>
+      <div className="portfolio">
         <h2>Here is some stuff I made</h2><br/>
         
           <h3>Find My Farmer</h3>
-          
           <iframe 
-            width="300" 
-            height="164" 
+            width="600" 
+            height="328" 
             src="https://www.youtube.com/embed/uGJX-uxnX9A" 
             frameborder="0" 
             allowfullscreen>
           </iframe><br/><br/><br/><br/>
 
+          <h3>Picsty</h3>
+          <iframe width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/WeS_gwIzzAg" 
+            frameborder="0" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen>
+          </iframe><br/><br/><br/><br/>
+
           <h3>New York Times Archive Searcher</h3>
           <iframe 
-            width="300" 
-            height="164" 
+            width="600" 
+            height="328" 
             src="https://www.youtube.com/embed/-Xn7iRw_e0A" 
             frameborder="0" 
             allowfullscreen>

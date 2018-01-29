@@ -6,6 +6,9 @@ import Stuff from './components/tabs/Stuff'
 import Contact from './components/tabs/Contact'
 import Blog from './components/tabs/Blog'
 import Background from './components/tabs/Background'
+import Header from './components/header'
+import MainPage from './components/mainPage'
+import ToolBar from './components/ToolBar'
 import {connect} from 'react-redux'
 import { withRouter} from 'react-router'
 import * as actions from './actions/addJson'
@@ -16,32 +19,22 @@ import {
 } from "react-router-dom";
 
 class App extends React.Component {
-  componentWillMount() {
-    const obj = this.props.jsonObj
-    this.props.addJson(obj)
-  }
 
   render() {
     //console.log(this.props)
-    const profileData = this.props.jsonObj.basics;
-    const aboutData = profileData.summary;
 
     return  (
       <HashRouter>
+
         <div className="App">
-            <ul className="header">
-              <li><NavLink to="/">Home</NavLink></li>
-              <li><NavLink to="/about">Toolkit</NavLink></li>
-              <li><NavLink to="/stuff">Stuff</NavLink></li>
-              <li><NavLink to="/contact">Contact</NavLink></li>
-            </ul>
-            <div className="content">
-              <Route exact path="/" component={Background}/>
-              <Route path="/about" component={About}/>
-              <Route path="/stuff" component={Stuff}/>
-              <Route path="/contact" component={Contact}/>
-              <Route path="/blog" component={Blog}/>
-            </div>
+          <Header/>
+          <Route exact path="/" component={MainPage}/>
+          <Route path="/about" component={About}/>
+          <Route path="/stuff" component={Stuff}/>
+          <Route path="/contact" component={Contact}/>
+          <Route path="/blog" component={Blog}/>
+       
+          
         </div>
       </HashRouter>
   )
