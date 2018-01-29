@@ -72,7 +72,7 @@
   padding-left: 5%;
   padding-right: 5%;
   font-family: 'Lora', serif;
-  font-size: 1em;
+  font-size: 2.5em;
   color:#1D3664;
   position: absolute;
   bottom: 20%;
@@ -100,7 +100,7 @@
   padding-left: 5%;
   padding-right: 5%;
   font-family: 'Indie Flower', cursive;
-  font-size: 1em;
+  font-size: 2.5em;
  /* grid-column: 1;
   grid-row: 4;*/
   font-weight: bold;
@@ -128,7 +128,7 @@
   padding-left: 5%;
   padding-right: 5%;
   font-family: 'Kurale', serif;
-  font-size: 1em;
+  font-size: 2.5em;
   font-weight: bold;
   position: absolute;
   bottom: 25%;
@@ -154,7 +154,7 @@
   padding-left: 5%;
   padding-right: 5%;
   font-family: 'Roboto Mono', monospace;
-  font-size: 1em;
+  font-size: 2.5em;
   color: #4169E1;
   position: absolute;
   bottom: 20%;
@@ -181,7 +181,7 @@
   padding-left: 5%;
   padding-right: 5%;
   font-family: 'VT323', monospace;
-  font-size: 1em;
+  font-size: 2.5em;
   color:green;
   position: absolute;
   bottom: 25%;
@@ -220,7 +220,7 @@ a:link {
                 rgba(0,0,0,0.55) url('https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/458275_10150920965255419_1637873956_o.jpg?oh=9abe72e01c8d01d4105288d4616ccc82&oe=5AB8751E') no-repeat center;
  /* background-color:#F9F9FA;*/
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-  padding: 100px;
+  padding: 250px;
 }
 
 .homeText{
