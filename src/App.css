@@ -72,7 +72,7 @@
   padding-left: 5%;
   padding-right: 5%;
   font-family: 'Lora', serif;
-  font-size: 2.5em;
+  font-size: 1em;
   color:#1D3664;
   position: absolute;
   bottom: 20%;
@@ -100,7 +100,7 @@
   padding-left: 5%;
   padding-right: 5%;
   font-family: 'Indie Flower', cursive;
-  font-size: 3em;
+  font-size: 1em;
  /* grid-column: 1;
   grid-row: 4;*/
   font-weight: bold;
@@ -128,7 +128,7 @@
   padding-left: 5%;
   padding-right: 5%;
   font-family: 'Kurale', serif;
-  font-size: 2.5em;
+  font-size: 1em;
   font-weight: bold;
   position: absolute;
   bottom: 25%;
@@ -154,7 +154,7 @@
   padding-left: 5%;
   padding-right: 5%;
   font-family: 'Roboto Mono', monospace;
-  font-size: 2em;
+  font-size: 1em;
   color: #4169E1;
   position: absolute;
   bottom: 20%;
@@ -181,7 +181,7 @@
   padding-left: 5%;
   padding-right: 5%;
   font-family: 'VT323', monospace;
-  font-size: 3.5em;
+  font-size: 1em;
   color:green;
   position: absolute;
   bottom: 25%;
