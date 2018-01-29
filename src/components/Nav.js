@@ -1,9 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import MdFileDownload from 'react-icons/lib/md/file-download'
 
 class Nav extends React.Component {
   render() {
     return (
+      <div>
       <ul>
         <li class="dropdown">
           <NavLink activeClassName="active" to="/">Home</NavLink>
@@ -17,6 +19,8 @@ class Nav extends React.Component {
         <li class="dropdown"><NavLink activeClassName="active" to="/about">About Me</NavLink></li>
         <li class="dropdown"><a href="https://martina147.typeform.com/to/tFPgmP" activeClassName="active">Contact</a></li>
       </ul>
+      <div className="icons-right" ><a href="https://docs.google.com/document/d/1--VRekGKNXuAMpDsscZXnYLRKF1WCULA3VVq8uJ9kKA/edit?usp=sharing" className="icons-right"><MdFileDownload/>My Resume</a></div>
+      </div>
     )
   }
 }

@@ -1,37 +1,60 @@
 
 .App {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 1%;
+  /*padding: 1%;*/
 }
 
 .nameContainer{
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 40px;
-  padding: 5%;
+  padding: 2%;
   color: #0D1F35;
+  background: #0D1F35;
+  /*background: #948374;;*/
 }
 
 .name {
-  padding-top: 10px;
-  padding-left: 5%;
+  padding: 2%;
+  background: #0D1F35;
 }
 
 .mainName{
+  color: white;
   font-size: 50px;
-  padding: 10px;
+  font-weight: bold;
+  /*padding: 10px;*/
 }
 
 .subName{
+  font-weight: bold;
   font-size: 30px;
-  padding: 10px;
+  color: white;
 }
 
 .icons{
   font-size: 75px;
-  padding: 10px;
-  color: black;
+  color: white;
   text-decoration-color: black;
+}
+
+.icons-right{
+  font-size: 30px;
+  color: white;
+  padding-right: 2%;
+  text-align: right;
+}
+
+.icons-right :hover{
+  color:#948374;
+}
+
+.icons :hover{
+  color:#948374;
+}
+
+.right{
+  
 }
 
 .mainPage{
@@ -71,7 +94,6 @@
 .college img {
   height: auto;
   width: 100%;
-
 }
 
 .college p {
@@ -254,14 +276,6 @@ a:link {
   width: 200px;
 }
 
-/*.profile_pic {
-  background: rgba(76, 175, 80, 0.1);
-  height: 150px;
-  width: 150px;
-  text-shadow: 2px 2px gray;
-  border-radius: 50%;
-}*/
-
 .contact-form{
   text-align: center;
 }
@@ -330,7 +344,7 @@ ul {
 }
 
 li {
-  background-color: #F9F9FA;
+  background-color: #0D1F35;
   font-size: 40px;
   text-align: center;
   cursor: pointer;
@@ -342,12 +356,13 @@ li {
 
 li a, .dropbtn {
   display: inline-block;
-  color: #0D1F35;
+  
+  color: #F9F9FA;
   padding: 15px 20px;
   font-size: 30px;
   text-align: center;
   text-decoration: none;
-  border-radius: 15px;
+  /*border-radius: 15px;*/
 }
 
 
