@@ -220,7 +220,7 @@ a:link {
                 rgba(0,0,0,0.55) url('https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/458275_10150920965255419_1637873956_o.jpg?oh=9abe72e01c8d01d4105288d4616ccc82&oe=5AB8751E') no-repeat center;
  /* background-color:#F9F9FA;*/
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-  padding: 250px;
+  padding: 100px;
 }
 
 .homeText{
@@ -335,7 +335,7 @@ li {
 li a, .dropbtn {
   display: inline-block;
   color: #0D1F35;
-  padding: 15px 50px;
+  padding: 15px 20px;
   font-size: 30px;
   text-align: center;
   text-decoration: none;
