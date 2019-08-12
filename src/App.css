@@ -1,75 +1,16 @@
-
 .App {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   /*padding: 1%;*/
 }
 
-.nameContainer{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  font-size: 40px;
-  padding: 2%;
-  color: #0D1F35;
-  background: #0D1F35;
-  /*background: #948374;;*/
-}
-
-.name {
-  padding: 2%;
-  background: #0D1F35;
-}
-
-.mainName{
-  color: white;
-  font-size: 50px;
-  font-weight: bold;
-  /*padding: 10px;*/
-}
-
-.subName{
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-}
-
-.icons{
-  font-size: 75px;
-  color: white;
-  text-decoration-color: black;
-}
-
-.icons-right{
-  font-size: 30px;
-  color: white;
-  padding-right: 2%;
-  text-align: right;
-}
-
-.icons-right :hover{
-  color:#948374;
-}
-
-.icons :hover{
-  color:#948374;
-}
-
-.right{
-  
-}
-
-.mainPage{
-  background-color: #F9F9FA;
-
-}
-
-.about-header{
+.about-header {
   font-size: 50px;
   text-align: center;
-  color: #0D1F35;
+  color: #0d1f35;
 }
 
-.about{
-/*  font-size: 40px;*/
+.about {
+  /*  font-size: 40px;*/
   /*width: auto;*/
   padding: 0% 5% 5% 5%;
   display: grid;
@@ -82,14 +23,13 @@
   opacity: 0.3;
 }
 
-.college{
+.college {
   /*height: 100%;
   width: 100%;*/
   position: relative;
   border-bottom: 1px solid grey;
   align-items: center;
 }
-
 
 .college img {
   height: auto;
@@ -100,17 +40,17 @@
   padding-top: 0;
   padding-left: 5%;
   padding-right: 5%;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   font-size: 2.5em;
-  color:#1D3664;
+  color: #1d3664;
   position: absolute;
   bottom: 20%;
   text-align: center;
 }
 
-.brooklyn{
+.brooklyn {
   /*height: 100%;*/
-/*  display: grid;
+  /*  display: grid;
   grid-template-columns: repeat(2, 1fr);*/
   position: relative;
   /*padding-top: 3%;
@@ -118,19 +58,18 @@
   border-bottom: 1px solid grey;
 }
 
-.brooklyn img{
+.brooklyn img {
   height: auto;
   width: 100%;
-
 }
 
 .brooklyn p {
   padding-top: 0;
   padding-left: 5%;
   padding-right: 5%;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   font-size: 2.5em;
- /* grid-column: 1;
+  /* grid-column: 1;
   grid-row: 4;*/
   font-weight: bold;
   position: absolute;
@@ -138,13 +77,12 @@
   text-align: center;
 }
 
-.opera{
+.opera {
   /*height: 100%;*/
   /*width: 100%;*/
   position: relative;
   border-bottom: 1px solid grey;
 }
-
 
 .opera img {
   /*margin-top: 60px;*/
@@ -156,21 +94,19 @@
   padding-top: 0;
   padding-left: 5%;
   padding-right: 5%;
-  font-family: 'Kurale', serif;
+  font-family: "Kurale", serif;
   font-size: 2.5em;
   font-weight: bold;
   position: absolute;
   bottom: 25%;
   text-align: center;
-
 }
 
-.javascript{
+.javascript {
   /*height: 100%;*/
   position: relative;
   border-bottom: 1px solid grey;
 }
-
 
 .javascript img {
   /*margin-top: 60px;*/
@@ -182,22 +118,19 @@
   padding-top: 0;
   padding-left: 5%;
   padding-right: 5%;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 2.5em;
-  color: #4169E1;
+  color: #4169e1;
   position: absolute;
   bottom: 20%;
   text-align: center;
-
 }
 
-
-.fullstackDeveloper{
+.fullstackDeveloper {
   /*height: 100%;*/
   position: relative;
   border-bottom: 1px solid grey;
 }
-
 
 .fullstackDeveloper img {
   /*margin-top: 60px;*/
@@ -209,105 +142,69 @@
   padding-top: 0;
   padding-left: 5%;
   padding-right: 5%;
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
   font-size: 2.5em;
-  color:green;
+  color: green;
   position: absolute;
   bottom: 25%;
   text-align: center;
 }
 
-.portfolio{
+.portfolio {
   text-align: center;
-}
-
-.aboutNav{
-  text-decoration: none;
-
-}
-
-.aboutButton{
-  background-color: #0D1F35;
-  color: white;
-  font-size: 30px;
-  padding: 25px 200px;
-  border:white 1px solid;
-  border-radius: 40px;
 }
 
 a:link {
   text-decoration: none;
-} 
-
-.aboutNav:hover {
-  transform: scale(1.1);
-  transition-duration: 1s;
-} 
-
-.homepage{
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-                rgba(0,0,0,0.55) url('https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/458275_10150920965255419_1637873956_o.jpg?oh=9abe72e01c8d01d4105288d4616ccc82&oe=5AB8751E') no-repeat center;
- /* background-color:#F9F9FA;*/
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-  padding: 5%;
 }
 
-.homeText{
-  padding: 5%;
-  color: white;
-  font-size: 50px;
-  text-align: center;
-}
-
-.toolBar{
-  background-color: #F9F9FA;
+.toolBar {
+  background-color: #f9f9fa;
   color: black;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 1%;
 }
 
-.toolContainer{
-  margin: auto;
-}
-
-.tool{
+.tool {
   padding: 1%;
   width: 200px;
 }
 
-.contact-form{
+.contact-form {
   text-align: center;
 }
 
 .form {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: .2fr .2fr .2fr .2fr .2fr;
+  grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
 }
 
-input[type=text], select, textarea {
-    width: 500px; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+input[type="text"],
+select,
+textarea {
+  width: 500px; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-input[type=submit] {
-    background: linear-gradient(#FF8033,pink);;
-    color: white;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    cursor: pointer;
+input[type="submit"] {
+  background: linear-gradient(#ff8033, pink);
+  color: white;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-input[type=submit]:hover {
-    background: linear-gradient(white,pink);
+input[type="submit"]:hover {
+  background: linear-gradient(white, pink);
 }
 
 .namebox {
@@ -315,9 +212,8 @@ input[type=submit]:hover {
   width: 500px;
   /*grid-column: 2/3;
   grid-row: 1/2;*/
-  padding: 10px
+  padding: 10px;
 }
-
 
 .textbox {
   height: 500px;
@@ -327,79 +223,9 @@ input[type=submit]:hover {
 }
 
 .submit {
-/*  height: 25px;
+  /*  height: 25px;
   width: 100px;*/
   /*background-color: black 50%;*/
   grid-column: 2/3;
   grid-row: 4/5;
-}
-
-
-ul {
-  text-align: right;
-  list-style-type: none;
-  margin: 0;
-  padding: 20px;
-  overflow: hidden;
-}
-
-li {
-  background-color: #0D1F35;
-  font-size: 40px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: white;
-  border: none;
-  /*border-radius: 15px;*/
-}
-
-li a, .dropbtn {
-  display: inline-block;
-  
-  color: #F9F9FA;
-  padding: 15px 20px;
-  font-size: 30px;
-  text-align: center;
-  text-decoration: none;
-  /*border-radius: 15px;*/
-}
-
-
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: #948374;
-  color: white;
-}
-
-
-li.dropdown {
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  font-size: 30px;
-  text-align: center;
-}
-
-.dropdown-content a:hover {
-  color: #12A8E0;
-  background-color: #f1f1f1;
-  font-size: 30px;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
 }
